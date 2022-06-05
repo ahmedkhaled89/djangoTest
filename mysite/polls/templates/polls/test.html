@@ -1,0 +1,9 @@
+{%extends "polls/base.html" %}
+{%block content%}
+    <h1>TESTING TEMPLATES</h1>
+    <a href="/polls/main/633">HARD CODED</a>
+    <p>--------------------------</p>
+    <a href= "{%url 'polls:main' 633%}">abc</a>
+    <p>--------------------------------------------------------------------------------------</p>
+    <h1><a href="{{root}}">INDEX ROOT</a></h1>
+{% endblock %}
