@@ -1,2 +1,2 @@
 # djangoTest 
-# This is a Django project Where I do thew assingment for DJ4E on coursera
+# This is a Django project Where I do the assignments for DJ4E on coursera
